@@ -101,10 +101,4 @@ git remote add origin <repository_url>
 # 标签 (Tag)
 git tag <tag_name>  # 创建标签
 git push origin --tags # 推送标签到远程仓库
-重要提示：
-
-git status 是你经常需要使用的命令，它会告诉你当前工作区的状态。
-git commit 提交前请确保 git add 了所有要提交的文件。
-git push 推送代码到远程仓库时，请确认你的本地分支已经是最新的 (使用 git pull)。
-git revert 比直接回滚历史更安全，因为它会创建一个新的提交来撤销之前的更改，而不是修改历史记录。
-希望这份指南能帮助你入门 Git！
+重要提示：fixed first time
